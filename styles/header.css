@@ -32,6 +32,7 @@ header {
 
 .header_list a{
     text-decoration: none;
+    color: #000000;
 }
 
 .header_icons {
@@ -75,7 +76,7 @@ header {
     .header_sm:hover .menu {
         display: block;
         left: 0;
-        top:9.5rem;
+        top:2rem;
     }
 
     .menu a {
