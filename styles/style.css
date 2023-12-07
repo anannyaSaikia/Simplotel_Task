@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@import url("header.css");
+@import url("hero.css");
+@import url("catalogue.css");
+
+body{
+    margin: 0;
+}
+
+html{
+    font-size : 60%;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+@media (max-width : 1024px){
+    html{
+        font-size: 50%;
+    }
+}
+
+@media (max-width : 767px){
+    html{
+        font-size: 45%;
+    }
+}
